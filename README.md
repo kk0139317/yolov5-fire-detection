@@ -1,4 +1,4 @@
-<h1 align="center"><span>YOLOv5/YOLOv9 for Fire Detection</span></h1>
+  <h1 align="center"><span>YOLOv5/YOLOv9 for Fire Detection</span></h1>
 
 Fire detection task aims to identify fire or flame in a video and put a bounding box around it. This repo includes a demo on how to build a fire detector using YOLOv5/YOLOv9. 
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## 🏋️ Training
-I set up ```train.ipynb``` script for training the model from scratch. To train the model, download [Fire-Dataset](https://drive.google.com/file/d/1TQKA9nzo0BVwtmojmSusDt5j02KWzIu9/view?usp=sharing) and put it in ```datasets``` folder. This dataset contains samples from both [Fire & Smoke](https://www.kaggle.com/dataclusterlabs/fire-and-smoke-dataset) and [Fire & Guns](https://www.kaggle.com/atulyakumar98/fire-and-gun-dataset) datasets on Kaggle. I filtered out images and annotations that contain smokes & guns as well as images with low resolution, and then changed fire annotation's label in annotation files.
+I set up ```train.ipynb``` script for training the model from scratch. To train the model, download  and put it in ```datasets``` folder. This dataset contains samples from both [Fire & Smoke](https://www.kaggle.com/dataclusterlabs/fire-and-smoke-dataset) and [Fire & Guns](https://www.kaggle.com/atulyakumar98/fire-and-gun-dataset) datasets on Kaggle. I filtered out images and annotations that contain smokes & guns as well as images with low resolution, and then changed fire annotation's label in annotation files.
 
 - YOLOv5
 ```
